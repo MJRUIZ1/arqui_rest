@@ -100,7 +100,7 @@ DATABASES = {
         'ENGINE' : 'django.db.backends.postgresql_psycopg2',
         'NAME' : 'arquidb',
         'USER': 'postgres',
-        'PASSWORD': '14072017',
+        'PASSWORD': 'Pandora',
         'HOST': 'localhost',
         'PORT': '5432'
     }
