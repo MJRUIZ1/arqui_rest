@@ -1,1 +1,1 @@
-we: gunicorn arqui.wsgi:application --python app --log-file
+we: gunicorn arqui.wsgi:application --python app --log-file -
