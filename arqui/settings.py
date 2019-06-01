@@ -130,7 +130,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 try:
-    from arqui.local_settings import *
+    from arqui.local_setting import *
 except ImportError:
     pass
 
@@ -148,4 +148,4 @@ if not DEBUG:
     } 
 
     import django_heroku
-django_heroku.settings(locals())
+    django_heroku.settings(locals())
